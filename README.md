@@ -4,10 +4,10 @@ The benchmark includes two MARL algorithms, as well as 5 CL methods. COOX is the
 
 ![IPPO gif](./overcooked_gif.gif)
 
-The benchmark includes 36 Overcooked layouts, of varying difficulty level. 
-![easy_layout](./assets/screenshots/basic_kitchen_large.png)
-![med_layout](./assets/screenshots/split_work.png)
-![hard_layout](./assets/screenshots/split_kitchen.png)
+The benchmark includes 36 Overcooked layouts, of varying difficulty level. Here we show 3 examples of layouts. 
+![easy_layout](./screenshots/easy/basic_kitchen_large.png)
+![med_layout](./screenshots/medium/split_work.png)
+![hard_layout](./screenshots/hard/split_kitchen.png)
 
 ## Install
 First create a virtual environment 
@@ -44,5 +44,7 @@ After installing, the IPPO implementation can be run from the base folder:
 python -m baselines.IPPO_CL
 python -m baselines.IPPO_MLP
 ```
+
+
 
 
